@@ -15,7 +15,7 @@ file = requests.get(url)
 download_file = "./wish_list.txt"
 
 # Store the text in a variable
-convert_text = file.text
+convert_text = "title:This is a compiled collection of god/recommended rolls from top community minds.\n\ndescription:Thanks to u/Mercules904, @AyyItsChevy, @chrisfried, u/-seudonym-, u/zman2100, u/goddamtofu, Gleauxx, GodInGaming, Beenlab, CoolCheese, Critbuff, Apathettic, Ekuegan, Jarv, Ascendant Nomad, Shadow, Pijinnn, AbbyHour, GodinGaming, illPhysics, BRAVExHERO, Pattycakes, blueberries.gg, YeezyGT, @johnldixon, WarlockMaggie, 2bithacker, and whyayala for their contributions. Ping u/48klocs / @48klocs with any issues.\n\n" + file.text
 
 # Save the current version of the wish list - in case of future development
 with open("./voltron.txt", "w") as f:
